@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Fundamentals Assignment</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Mastering JavaScript Fundamentals</h1>
+            <p>Explore variables, conditionals, functions, loops, and DOM manipulation</p>
+        </header>
+        
+        <!-- Part 1: JavaScript Basics -->
+        <section class="section">
+            <h2>Part 1: JavaScript Basics</h2>
+            <p>Variables, data types, operators, and conditionals</p>
+            
+            <div class="grid">
+                <div class="card">
+                    <h3>User Input Evaluation</h3>
+                    <p>Enter your age to check eligibility for voting:</p>
+                    <input type="number" id="ageInput" placeholder="Enter your age">
+                    <button id="votingButton">Check Eligibility</button>
+                    <div class="output" id="votingResult"></div>
+                </div>
+                
+                <div class="card">
+                    <h3>Number Comparison</h3>
+                    <p>Enter two numbers to see which is larger:</p>
+                    <input type="number" id="num1" placeholder="First number">
+                    <input type="number" id="num2" placeholder="Second number">
+                    <button id="compareButton">Compare Numbers</button>
+                    <div class="output" id="comparisonResult"></div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Part 2: JavaScript Functions -->
+        <section class="section">
+            <h2>Part 2: JavaScript Functions</h2>
+            <p>Reusable blocks of logic for common tasks</p>
+            
+            <div class="grid">
+                <div class="card">
+                    <h3>Calculate Total Price</h3>
+                    <p>Enter price and quantity to calculate total:</p>
+                    <input type="number" id="price" placeholder="Price">
+                    <input type="number" id="quantity" placeholder="Quantity">
+                    <button id="calculateButton">Calculate Total</button>
+                    <div class="output" id="totalResult"></div>
+                </div>
+                
+                <div class="card">
+                    <h3>String Formatter</h3>
+                    <p>Enter text to format it in different ways:</p>
+                    <input type="text" id="formatInput" placeholder="Enter text">
+                    <select id="formatOption">
+                        <option value="uppercase">UPPERCASE</option>
+                        <option value="lowercase">lowercase</option>
+                        <option value="capitalized">Capitalized Case</option>
+                    </select>
+                    <button id="formatButton">Format Text</button>
+                    <div class="output" id="formatResult"></div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Part 3: JavaScript Loops -->
+        <section class="section">
+            <h2>Part 3: JavaScript Loops</h2>
+            <p>Repetition and iteration with loops</p>
+            
+            <div class="grid">
+                <div class="card">
+                    <h3>Multiplication Table</h3>
+                    <p>Generate a multiplication table:</p>
+                    <input type="number" id="tableNumber" placeholder="Enter a number" value="5">
+                    <button id="tableButton">Generate Table</button>
+                    <div class="output" id="multiplicationTable"></div>
+                </div>
+                
+                <div class="card">
+                    <h3>User List Generator</h3>
+                    <p>Enter names to create a list:</p>
+                    <input type="text" id="userInput" placeholder="Enter a name">
+                    <button id="addUserButton">Add to List</button>
+                    <button id="clearListButton">Clear List</button>
+                    <div class="output">
+                        <ul class="user-list" id="userList"></ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Part 4: DOM Manipulation -->
+        <section class="section">
+            <h2>Part 4: DOM Manipulation</h2>
+            <p>Dynamic content updates and interactivity</p>
+            
+            <div class="grid">
+                <div class="card">
+                    <h3>Theme Switcher</h3>
+                    <p>Change the theme of the page:</p>
+                    <button id="lightThemeButton">Light Theme</button>
+                    <button id="darkThemeButton">Dark Theme</button>
+                    <button id="colorfulThemeButton">Colorful Theme</button>
+                </div>
+                
+                <div class="card">
+                    <h3>Dynamic Content</h3>
+                    <p>Add new elements to the page:</p>
+                    <input type="text" id="newItemInput" placeholder="Enter item text">
+                    <button id="addItemButton">Add New Item</button>
+                    <button id="removeItemButton">Remove Last Item</button>
+                    <div class="output" id="itemContainer"></div>
+                </div>
+                
+                <div class="card">
+                    <h3>Color Changer</h3>
+                    <p>Click to change the color of the box:</p>
+                    <div class="color-box" id="colorBox"></div>
+                    <button id="colorButton">Change Color</button>
+                </div>
+            </div>
+        </section>
+        
+        <footer>
+            <p>JavaScript Fundamentals Assignment &copy; 2023</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
